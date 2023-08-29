@@ -11,9 +11,32 @@
 
 }
 
+.lista-filmes {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
+
 .lista-filmes img {
     width: 900px;
     max-width: 100%;
     max-height: 340px;
-    
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.lista-filmes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 24px;
+    background-color: #116FEB;
+    text-decoration: none;
+    color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
