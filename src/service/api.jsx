@@ -1,5 +1,6 @@
 // BAse da URL:https://api.themoviedb.org/3/
 // URL da API: movie/now_playing?api_key=d4d6054dc2431ca02d6a78332215fbea&language=pt-BR
+// Chave API (themoviedb.org): d4d6054dc2431ca02d6a78332215fbea
 
 
 import axios from 'axios';
